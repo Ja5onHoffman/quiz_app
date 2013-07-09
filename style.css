@@ -1,0 +1,46 @@
+/** {
+  border: 1px dotted blue;
+}*/
+
+.red {
+  background-color: red; 
+}
+
+.questions {
+  display: none;
+  float: left;
+}
+
+p {
+  text-indent: 20px;
+}
+
+input:last-of-type, h2 {
+  margin-left:20px;
+}
+
+#next {
+  margin: 20px;
+  
+}
+
+#score {
+  display: none;
+  position: fixed;
+  top: 50px;
+  left: 600px;
+  background-color: ;
+  height: 100px;
+  width: 100px;
+  border: 5px inset grey;
+}
+
+#score h3 {
+  text-align: center;
+    font-size: 85px;
+    margin: 0 auto; 
+}
+
+#wrongAnswer {
+  background: red;
+}
